@@ -1,4 +1,5 @@
 import React, { ReactNode } from 'react';
+import Header from '../Header';
 import * as C from './styles';
 
 
@@ -6,14 +7,14 @@ type Props = {
   children: ReactNode;
 }
 
-const theme = ({children}: Props) => {
+const Theme = ({children}: Props) => {
   return (
     <C.Container>
       <C.Area>
         <Header />
         <C.Steps>
           <C.Sidebar>
-
+            ...
           </C.Sidebar>
           <C.Page>
             {children}
@@ -24,4 +25,4 @@ const theme = ({children}: Props) => {
   );
 }
 
-export default theme;
+export default Theme;

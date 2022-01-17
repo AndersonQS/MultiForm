@@ -77,4 +77,5 @@ export const useForm = () => {
   if (context === undefined) {
      throw new Error ('userForm precisa ser usado dentro do provider');
   }
+  return context;
 }
