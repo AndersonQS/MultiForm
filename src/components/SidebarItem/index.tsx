@@ -13,6 +13,7 @@ export const SidebarItem = ({title, description, icon,path}: Props) => {
   return (
     <C.Container>
       <Link to = {path}>
+        <h1></h1>
         
       </Link>
     </C.Container>
