@@ -1,6 +1,6 @@
 import { ReactNode } from 'react';
-import Header from '../Header';
 import * as C from './styles';
+import { Header } from '../Header';
 import { SidebarItem } from '../SidebarItem'
 import { useForm } from '../../contexts/FormContext'
 
@@ -9,6 +9,7 @@ type Props = {
 }
 
 const Theme = ({ children }: Props) => {
+
   const { state } = useForm();
 
   return (

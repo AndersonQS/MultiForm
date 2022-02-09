@@ -1,20 +1,20 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Container = styled.div`
-    margin: 30px 0;
-    cursor: pointer;
-    a {
-        display: flex;
-        align-items: center;
-        text-decoration: none;
-    }
+  margin: 30px 0;
+  cursor: pointer;
+
+  a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+  }
 `;
 
 export const Info = styled.div`
     flex: 1;
     margin-right: 20px;
 `;
-
 export const Title = styled.div`
     text-align: right;
     font-weight: bold;
@@ -22,13 +22,11 @@ export const Title = styled.div`
     font-size: 15px;
     color: #FFF;
 `;
-
 export const Description = styled.div`
     text-align: right;
     font-size: 13px;
     color: #B8B8D4;
 `;
-
 export const IconArea = styled.div<{ active: boolean; }>`
     width: 50px;
     height: 50px;
@@ -48,3 +46,6 @@ export const Point = styled.div<{ active: boolean; }>`
     margin-right: -6px;
     background-color: ${props => props.active ? '#25CD89' : '#02044A'};
 `;
+
+
+

@@ -2,7 +2,7 @@ import React from 'react';
 
 import * as C from './styles';
 
-const Header = () => {
+export const Header = () => {
   return (
     <C.Container>
       <h1>Cadastro de Desenvolvedor</h1>
@@ -11,4 +11,3 @@ const Header = () => {
   );
 }
 
-export default Header;
